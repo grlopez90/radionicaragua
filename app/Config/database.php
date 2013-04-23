@@ -61,7 +61,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'radionicaragua',
+		'database' => 'radio',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
