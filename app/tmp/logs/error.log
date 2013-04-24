@@ -19,3 +19,76 @@ Stack Trace:
 #3 C:\wamp\www\radionicaragua\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
 #4 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2013-04-24 03:15:01 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/favicon.ico
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 03:15:03 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/favicon.ico
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-24 03:48:23 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\wamp\www\radionicaragua\app\Model\News.php, line 14]
+2013-04-24 03:48:23 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /radionicaragua/
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\rad...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\rad...', 14, Array)
+#2 C:\wamp\www\radionicaragua\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\rad...', 14, Array)
+#3 C:\wamp\www\radionicaragua\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-24 03:54:06 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp\www\radionicaragua\app\Controller\HomeController.php, line 16]
+2013-04-24 03:54:06 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /radionicaragua/
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\rad...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\rad...', 16, Array)
+#2 C:\wamp\www\radionicaragua\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\rad...', 16, Array)
+#3 C:\wamp\www\radionicaragua\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-24 03:55:14 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\wamp\www\radionicaragua\app\Controller\HomeController.php, line 16]
+2013-04-24 03:55:14 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /radionicaragua/
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\rad...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\rad...', 16, Array)
+#2 C:\wamp\www\radionicaragua\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\rad...', 16, Array)
+#3 C:\wamp\www\radionicaragua\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-24 03:55:50 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp\www\radionicaragua\app\Controller\HomeController.php, line 16]
+2013-04-24 03:55:50 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /radionicaragua/
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\rad...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\rad...', 16, Array)
+#2 C:\wamp\www\radionicaragua\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\rad...', 16, Array)
+#3 C:\wamp\www\radionicaragua\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-24 03:56:44 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+Request URL: /radionicaragua/
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\wamp\www\radionicaragua\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `News`.`...', Array)
+#2 C:\wamp\www\radionicaragua\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `News`.`...', Array, Array)
+#3 C:\wamp\www\radionicaragua\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `News`.`...', false)
+#4 C:\wamp\www\radionicaragua\lib\Cake\Model\Model.php(2694): DboSource->read(Object(News), Array)
+#5 C:\wamp\www\radionicaragua\app\Controller\HomeController.php(21): Model->find('all', Array)
+#6 [internal function]: HomeController->index()
+#7 C:\wamp\www\radionicaragua\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#8 C:\wamp\www\radionicaragua\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\radionicaragua\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

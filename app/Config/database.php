@@ -60,8 +60,8 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '',
-		'database' => 'radio',
+		'password' => 'root',
+		'database' => 'radionicaragua',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
