@@ -31,6 +31,8 @@ $cakeDescription = __d('cake_dev', '');
 
 		echo $this->Html->css('http://necolas.github.io/normalize.css/2.1.1/normalize.css');
 
+		echo $this->Html->css('default');
+
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
@@ -39,41 +41,48 @@ $cakeDescription = __d('cake_dev', '');
 <body>
 	<div id="container">
 		<header id="header">
-			<?php 
-			echo $this->Html->image(
-				'logo.png', 
-				array(
-					'alt'=>'Logo Radio Nicaragua',
-					'url'=> array(
-						'controller' => 'Home',
-						'action' => 'index'
-					)
-				)
-			);
-			?>
-			<ul>
-				<li>
-				<?php echo $this->Html->link(
-					'Inicio',
-					array(
-						'controller'=>'Home',
-						'action'=>'index'
-					)
-				); ?>
-				</li>
-				<li>
-					<?php echo $this->Html->link(
-					'Deportes',
-					array(
-						'controller'=>'Home',
-						'action'=>'index'
-					)
-				); ?>
-				</li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
+			<div class="background"></div>
+			<div class="top">
+				<div>
+					
+					<?php 
+					echo $this->Html->image(
+						'logo.png', 
+						array(
+							'alt'=>'Logo Radio Nicaragua',
+							'url'=> array(
+								'controller' => 'Home',
+								'action' => 'index'
+							)
+						)
+					);
+					?>
+					<ul>
+						<li>
+						<?php echo $this->Html->link(
+							'Inicio',
+							array(
+								'controller'=>'Home',
+								'action'=>'index'
+							)
+						); ?>
+						</li>
+						<li>
+							<?php echo $this->Html->link(
+							'Deportes',
+							array(
+								'controller'=>'Home',
+								'action'=>'index'
+							)
+						); ?>
+						</li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			
 		</header>
 		<div id="content">
 
