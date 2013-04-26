@@ -1,3 +1,14 @@
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: url('fonts/proximanovaregular.eot');
+	src: url('fonts/proximanovaregular.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/proximanovaregular.woff') format('woff'),
+		 url('fonts/proximanovaregular.ttf') format('truetype'),
+		 url('fonts/proximanovaregular.svg#ProximaNova-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 #header {
 	background: url('../img/fondo1.png') top center no-repeat;
 	height: 430px;
