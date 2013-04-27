@@ -44,7 +44,6 @@ $cakeDescription = __d('cake_dev', '');
 			<div class="background"></div>
 			<div class="top">
 				<div>
-					
 					<?php 
 					echo $this->Html->image(
 						'logo.png', 
@@ -82,10 +81,17 @@ $cakeDescription = __d('cake_dev', '');
 					</ul>
 				</div>
 			</div>
-			
 		</header>
-		<div id="content">
 
+		<aside class="recientes">
+			<div>
+				<span>Noticias Breves:</span>
+				<span class="breve">Una noticias</span>
+			</div>
+		</aside>
+
+		<div id="content">
+			
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>

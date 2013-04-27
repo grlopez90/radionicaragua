@@ -9,8 +9,24 @@
 	font-style: normal;
 }
 
+body {
+    font: normal 16px/1.4 ProximaNova-Regular;
+    background: #dcdcdc;
+    position: relative;
+}
+
+html {
+	background: none !important;
+}
+
+#content {
+	margin: 0 auto;
+	max-width: 1160px;
+	width: 100%;
+}
+
 #header {
-	background: url('../img/fondo1.png') top center no-repeat;
+	background: url('../img/bgnew.png'), url('../img/fondo1.png') top center no-repeat;
 	height: 430px;
 	width: 100%;
 	position: relative;
@@ -25,6 +41,25 @@
 	top: 0;
 	width: 100%;
 }
+
+.breve {
+	color: #df008b;
+}
+
+.recientes {
+	background: #FFF;
+	height: 41px;
+	width: 100%;
+}
+
+	.recientes>div {
+		color: #555;
+		font-weight: bold;
+		line-height: 41px;
+		margin: 0 auto;
+		text-align: center;
+		width: 1160px;
+	}
 
 .top {
 	margin: 0 auto;
