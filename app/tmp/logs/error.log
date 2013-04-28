@@ -92,13 +92,156 @@ Stack Trace:
 #9 C:\wamp\www\radionicaragua\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
 #10 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #11 {main}
-2013-04-27 23:22:18 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\wamp\www\radionicaragua\app\View\Noticias\ver.ctp, line 27]
-2013-04-27 23:22:18 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
-Request URL: /radionicaragua/noticias/ver/titulo:1-cualquier-mierda
+2013-04-26 04:41:49 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/fonts/proximanovaregular.eot
 Stack Trace:
-#0 C:\wamp\www\radionicaragua\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\rad...', 27)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\rad...', 27, Array)
-#2 C:\wamp\www\radionicaragua\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\rad...', 27, Array)
-#3 C:\wamp\www\radionicaragua\lib\Cake\Core\App.php(899): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-26 04:44:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-26 04:47:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-26 04:47:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-27 15:21:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-27 23:04:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-27 23:12:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-27 23:13:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-27 23:14:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-27 23:15:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-27 23:20:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-27 23:21:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-27 23:21:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-27 23:27:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-27 23:28:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-27 23:29:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-27 23:29:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /radionicaragua/img/background.png
+Stack Trace:
+#0 C:\wamp\www\radionicaragua\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
